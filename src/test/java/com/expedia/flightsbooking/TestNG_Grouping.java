@@ -12,7 +12,7 @@ public class TestNG_Grouping {
 	public void beforeMethod() {
 		System.out.println();
 		System.out.println("This method runs before every method");
-//		org.testng.Assert.fail();
+		org.testng.Assert.fail();
 	}
 	
 	@Test(groups = { "Sedan", "BMW" })
